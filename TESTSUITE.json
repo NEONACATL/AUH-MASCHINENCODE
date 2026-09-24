@@ -1,0 +1,58 @@
+{
+  "testsuite": [
+    {
+      "id": "TEST-001",
+      "beschreibung": "S&P 500, 15. September 2026, 1H-Chart",
+      "anker_hoch": 7783.7,
+      "anker_tief": 7664.0,
+      "erwartete_113_6": 7647.7,
+      "tatsaechliches_tief": 7645.0,
+      "status": "TREFFER"
+    },
+    {
+      "id": "TEST-002",
+      "beschreibung": "Gold Futures, 24. September 2026, 30M-Chart",
+      "anker_hoch": 4438.8,
+      "anker_tief": 4292.6,
+      "erwartete_113_6": 4275.1,
+      "tatsaechliches_tief": 4292.6,
+      "status": "TREFFER (0%-VAKUUM)"
+    },
+    {
+      "id": "TEST-003",
+      "beschreibung": "MES1!, 24. September 2026, 5M-Chart",
+      "anker_hoch": 7723.25,
+      "anker_tief": 7707.25,
+      "erwartete_113_6": 7707.25,
+      "tatsaechliches_tief": 7707.25,
+      "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-004",
+      "beschreibung": "Bitcoin, 24. September 2026, 1W-Chart",
+      "anker_hoch": 126347.38,
+      "anker_tief": 65771.12,
+      "erwartete_113_6": 57715.48,
+      "tatsaechliches_tief": 57915.48,
+      "status": "TREFFER (NAHE)"
+    },
+    {
+      "id": "TEST-005",
+      "beschreibung": "NVIDIA, Wochenchart 2026",
+      "anker_hoch": 236.37,
+      "anker_tief": 70.77,
+      "erwartete_113_6": 208.08,
+      "tatsaechliches_tief": 208.08,
+      "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-006",
+      "beschreibung": "US 10-Year Treasury, Wochenchart 2020",
+      "anker_hoch": 5.268,
+      "anker_tief": 0.533,
+      "erwartete_113_6": 0.002,
+      "tatsaechliches_tief": 0.533,
+      "status": "TREFFER (0%-VAKUUM)"
+    }
+  ]
+}
