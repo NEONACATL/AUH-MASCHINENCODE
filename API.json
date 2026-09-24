@@ -1,0 +1,18 @@
+{
+  "api": {
+    "name": "AUH-API",
+    "version": "1.0",
+    "endpunkt": "/auh/messen",
+    "methode": "POST",
+    "parameter": {
+      "anker_hoch": "float",
+      "anker_tief": "float",
+      "ziel": "string (z.B. '113.60')"
+    },
+    "response": {
+      "kante": "float",
+      "status": "string",
+      "empfehlung": "string"
+    }
+  }
+}
