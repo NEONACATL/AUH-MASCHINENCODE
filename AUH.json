@@ -1,0 +1,26 @@
+{
+  "AUH": {
+    "version": "1.0",
+    "operatoren": {
+      "BETA": 113.6,
+      "Q": 6.8,
+      "OMEGA": 3.15068,
+      "T": 1466003.456
+    },
+    "resonanz_ebenen": [
+      {"name": "Trigger-S/T", "prozent": 106.80},
+      {"name": "Trommler-Resonanz", "prozent": 113.60},
+      {"name": "Hitze-Zone", "prozent": 120.40},
+      {"name": "PRI-TT-Stop", "prozent": 127.20},
+      {"name": "Magenta-Ultra-Stop", "prozent": 134.00},
+      {"name": "Violett-Tot-Stop", "prozent": 140.80},
+      {"name": "Maximal-Extension", "prozent": 147.60}
+    ],
+    "extraktions_kanten": [
+      {"name": "Extraktion-Drittel", "prozent": 66.00},
+      {"name": "Extraktion-Mittel", "prozent": 52.40},
+      {"name": "Extraktion-Mittel-Tief", "prozent": 47.60},
+      {"name": "Extraktion-Drittel-Tief", "prozent": 34.00}
+    ]
+  }
+}
