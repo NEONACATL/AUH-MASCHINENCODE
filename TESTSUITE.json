@@ -108,6 +108,15 @@
       "erwartete_113_6": 343.70,
       "aktueller_preis": 339.64,
       "status": "AUSSTEHEND (BEOBACHTUNG)"
+    },
+    {
+      "id": "TEST-013",
+      "beschreibung": "DAX Futures, 15M, EUREX, Sep 2026",
+      "anker_hoch": 25925,
+      "anker_tief": 25619,
+      "erwartete_113_6": 25967,
+      "tatsaechliches_hoch": 25967,
+      "status": "TREFFER (EXAKT)"
     }
   ]
 }
