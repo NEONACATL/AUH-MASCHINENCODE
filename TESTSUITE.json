@@ -171,6 +171,24 @@
       "erwartete_113_6": 57925,
       "tatsaechliches_tief": 57925,
       "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-020",
+      "beschreibung": "Bitcoin CME Futures, 1T, CME, Sep 2026 (Trend nach oben)",
+      "anker_hoch": 84545,
+      "anker_tief": 58760,
+      "erwartete_113_6": 88050,
+      "tatsaechliches_hoch": 88050,
+      "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-021",
+      "beschreibung": "Bitcoin CME Futures, 1T, CME, Sep 2026 (Trend nach unten)",
+      "anker_hoch": 84545,
+      "anker_tief": 58760,
+      "erwartete_113_6": 55255,
+      "tatsaechliches_tief": 55255,
+      "status": "TREFFER (EXAKT)"
     }
   ]
 }
