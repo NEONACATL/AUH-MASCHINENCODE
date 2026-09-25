@@ -71,6 +71,16 @@
       "erwartete_113_6": 23.65,
       "tatsaechliches_hoch": 23.65,
       "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-009",
+      "beschreibung": "US Arbeitslosenquote, 1W, 1948-2020",
+      "anker_hoch": 10.8,
+      "anker_tief": 2.5,
+      "erwartete_113_6": 11.93,
+      "erwartete_147_6": 14.75,
+      "tatsaechliches_hoch": 14.7,
+      "status": "TREFFER (MAXIMAL-EXTENSION)"
     }
   ]
 }
