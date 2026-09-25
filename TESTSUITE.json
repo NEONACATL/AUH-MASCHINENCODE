@@ -99,6 +99,15 @@
       "erwartete_113_6": 29191.12,
       "tatsaechliches_hoch": 29175.00,
       "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-012",
+      "beschreibung": "Apple Inc., 1W, NASDAQ, Sep 2026",
+      "anker_hoch": 312.06,
+      "anker_tief": 79.44,
+      "erwartete_113_6": 343.70,
+      "aktueller_preis": 339.64,
+      "status": "AUSSTEHEND (BEOBACHTUNG)"
     }
   ]
 }
