@@ -44,7 +44,7 @@ def main():
             continue
 
         erfolg, berechnet, abweichung = pruefe_testfall(auh, test)
-         status_str = "TREFFER" if erfolg else "FEHLER"
+        status_str = "TREFFER" if erfolg else "FEHLER"
         
         if erfolg:
             treffer += 1
