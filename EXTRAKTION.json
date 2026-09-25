@@ -1,0 +1,21 @@
+{
+  "extraktion": {
+    "beschreibung": "Die Extraktions-Kanten sind relativ zur Spanne (Anker Hoch - Anker Tief) definiert. Jeder kann sie selbst auf seinen Chart anwenden.",
+    "kanten": [
+      {"name": "Extraktion-Drittel", "prozent": 66.00},
+      {"name": "Extraktion-Mittel", "prozent": 52.40},
+      {"name": "Extraktion-Mittel-Tief", "prozent": 47.60},
+      {"name": "Extraktion-Drittel-Tief", "prozent": 34.00}
+    ],
+    "formel": "kante = anker_hoch - (spanne * prozent / 100)",
+    "beispiel": {
+      "anker_hoch": 100.0,
+      "anker_tief": 50.0,
+      "spanne": 50.0,
+      "kante_66": 100.0 - (50.0 * 0.66) = 67.0,
+      "kante_52_4": 100.0 - (50.0 * 0.524) = 73.8,
+      "kante_47_6": 100.0 - (50.0 * 0.476) = 76.2,
+      "kante_34": 100.0 - (50.0 * 0.34) = 83.0
+    }
+  }
+}
