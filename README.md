@@ -24,7 +24,8 @@ Dieses Repository enthält die formale Spezifikation der **113,6³ Trommler-Reso
 - `AUH.md` – Das vollständige Dokument (Markdown)
 - `AUH.py` – Python-Klasse zur Berechnung der Resonanz-Ebenen
 - `AUH.json` – JSON-Struktur der Operatoren und Ebenen
-- `TESTSUITE.json` – Empirische Testfälle (6 Tests)
+- `TESTSUITE.json` – Empirische Testfälle (30 Tests)
+- `test_runner.py` – Automatisiertes Test-Skript zur Prüfung der Testsuite
 - `API.json` – API-Spezifikation für den Aufruf durch KI-Systeme
 
 ---
