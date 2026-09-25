@@ -225,6 +225,15 @@
       "erwartete_113_6": 165.13,
       "tatsaechliches_hoch": 165.13,
       "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-026",
+      "beschreibung": "Japanese Yen Futures, 1W, CME, Sep 2026",
+      "anker_hoch": 0.0124520,
+      "anker_tief": 0.0074400,
+      "erwartete_113_6": 0.0131335,
+      "tatsaechliches_hoch": 0.0131335,
+      "status": "TREFFER (EXAKT)"
     }
   ]
 }
