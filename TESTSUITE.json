@@ -198,6 +198,15 @@
       "erwartete_113_6": 3079.7,
       "tatsaechliches_hoch": 3079.7,
       "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-023",
+      "beschreibung": "Euro-Bund Futures, 1W, EUREX, Sep 2026",
+      "anker_hoch": 167.85,
+      "anker_tief": 82.15,
+      "erwartete_113_6": 179.51,
+      "tatsaechliches_hoch": 179.51,
+      "status": "TREFFER (EXAKT)"
     }
   ]
 }
