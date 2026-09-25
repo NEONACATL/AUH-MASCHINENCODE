@@ -129,11 +129,20 @@
     },
     {
       "id": "TEST-015",
-      "beschreibung": "Light Crude Oil Futures, 15M, NYMEX, Sep 2026",
+      "beschreibung": "Light Crude Oil Futures, 15M, NYMEX, Sep 2026 (Test 1)",
       "anker_hoch": 95.83,
       "anker_tief": 88.91,
       "erwartete_113_6": 96.77,
       "tatsaechliches_hoch": 96.77,
+      "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-016",
+      "beschreibung": "Light Crude Oil Futures, 15M, NYMEX, Sep 2026 (Test 2)",
+      "anker_hoch": 96.48,
+      "anker_tief": 92.88,
+      "erwartete_113_6": 92.39,
+      "tatsaechliches_tief": 92.39,
       "status": "TREFFER (EXAKT)"
     }
   ]
