@@ -81,6 +81,15 @@
       "erwartete_147_6": 14.75,
       "tatsaechliches_hoch": 14.7,
       "status": "TREFFER (MAXIMAL-EXTENSION)"
+    },
+    {
+      "id": "TEST-010",
+      "beschreibung": "Silver Futures, 4H, COMEX, Aug 2026",
+      "anker_hoch": 60.845,
+      "anker_tief": 57.215,
+      "erwartete_113_6": 56.721,
+      "tatsaechliches_tief": 56.720,
+      "status": "TREFFER (EXAKT)"
     }
   ]
 }
