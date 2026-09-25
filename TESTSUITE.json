@@ -126,6 +126,15 @@
       "erwartete_113_6": 25301,
       "tatsaechliches_tief": 25301,
       "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-015",
+      "beschreibung": "Light Crude Oil Futures, 15M, NYMEX, Sep 2026",
+      "anker_hoch": 95.83,
+      "anker_tief": 88.91,
+      "erwartete_113_6": 96.77,
+      "tatsaechliches_hoch": 96.77,
+      "status": "TREFFER (EXAKT)"
     }
   ]
 }
