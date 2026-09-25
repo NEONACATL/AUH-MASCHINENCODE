@@ -261,6 +261,15 @@
       "erwartete_113_6": 464.6,
       "tatsaechliches_tief": 464.6,
       "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-030",
+      "beschreibung": "Cotton No. 2 Futures, 1W, ICEUS, Sep 2026",
+      "anker_hoch": 145.63,
+      "anker_tief": 72.11,
+      "erwartete_113_6": 62.11,
+      "tatsaechliches_tief": 62.11,
+      "status": "TREFFER (EXAKT)"
     }
   ]
 }
