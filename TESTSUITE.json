@@ -234,6 +234,15 @@
       "erwartete_113_6": 0.0131335,
       "tatsaechliches_hoch": 0.0131335,
       "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-027",
+      "beschreibung": "EURO STOXX 50 Index Futures, 1W, EUREX, Sep 2026",
+      "anker_hoch": 5735,
+      "anker_tief": 2290,
+      "erwartete_113_6": 6204,
+      "tatsaechliches_hoch": 6204,
+      "status": "TREFFER (EXAKT)"
     }
   ]
 }
