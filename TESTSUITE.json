@@ -62,6 +62,15 @@
       "erwartete_113_6": 4020.786,
       "tatsaechliches_tief": 4020.786,
       "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-008",
+      "beschreibung": "US Inflation Rate YoY, 1M, 1915-1924",
+      "anker_hoch": 20.7,
+      "anker_tief": -1.0,
+      "erwartete_113_6": 23.65,
+      "tatsaechliches_hoch": 23.65,
+      "status": "TREFFER (EXAKT)"
     }
   ]
 }
