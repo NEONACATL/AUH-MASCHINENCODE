@@ -54,5 +54,13 @@
       "tatsaechliches_tief": 0.533,
       "status": "TREFFER (0%-VAKUUM)"
     }
-  ]
+  {
+  "id": "TEST-007",
+  "beschreibung": "Gold Spot / U.S. Dollar, 27, ICE, Aug 02, 2026",
+  "anker_hoch": 4117.547,
+  "anker_tief": 4032.370,
+  "erwartete_113_6": 4020.786,
+  "tatsaechliches_tief": 4020.786,
+  "status": "TREFFER (EXAKT)"
+}]
 }
