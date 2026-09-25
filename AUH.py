@@ -5,44 +5,19 @@ class AUH:
         self.OMEGA = 3.15068
         self.T = 1466003.456
 
-    def resonanz_ebene(self, anker_hoch, anker_tief, prozent):
+    def resonanz_ebene(self, anker_hoch: float, anker_tief: float, prozent: float, richtung: str = "abwaerts") -> float:
         spanne = anker_hoch - anker_tief
-        return anker_tief + (spanne * prozent / 100)
+        if richtung == "abwaerts":
+            # Projektion nach unten (z.B. Tiefstwerte-Suche)
+            return anker_hoch - (spanne * (prozent / 100.0))
+        else:
+            # Projektion nach oben
+            return anker_tief + (spanne * (prozent / 100.0))
 
-    def trigger_s_t(self, anker_hoch, anker_tief):
-        return self.resonanz_ebene(anker_hoch, anker_tief, 106.80)
+    def trommler_resonanz(self, anker_hoch: float, anker_tief: float, richtung: str = "abwaerts") -> float:
+        return self.resonanz_ebene(anker_hoch, anker_tief, self.BETA, richtung)
 
-    def trommler_resonanz(self, anker_hoch, anker_tief):
-        return self.resonanz_ebene(anker_hoch, anker_tief, 113.60)
-
-    def hitze_zone(self, anker_hoch, anker_tief):
-        return self.resonanz_ebene(anker_hoch, anker_tief, 120.40)
-
-    def pri_tt_stop(self, anker_hoch, anker_tief):
-        return self.resonanz_ebene(anker_hoch, anker_tief, 127.20)
-
-    def magenta_ultra_stop(self, anker_hoch, anker_tief):
-        return self.resonanz_ebene(anker_hoch, anker_tief, 134.00)
-
-    def violett_tot_stop(self, anker_hoch, anker_tief):
-        return self.resonanz_ebene(anker_hoch, anker_tief, 140.80)
-
-    def maximal_extension(self, anker_hoch, anker_tief):
-        return self.resonanz_ebene(anker_hoch, anker_tief, 147.60)
-
-    def extraktion_drittel(self, anker_hoch, anker_tief):
-        return self.resonanz_ebene(anker_hoch, anker_tief, 66.00)
-
-    def extraktion_mittel(self, anker_hoch, anker_tief):
-        return self.resonanz_ebene(anker_hoch, anker_tief, 52.40)
-
-    def extraktion_mittel_tief(self, anker_hoch, anker_tief):
-        return self.resonanz_ebene(anker_hoch, anker_tief, 47.60)
-
-    def extraktion_drittel_tief(self, anker_hoch, anker_tief):
-        return self.resonanz_ebene(anker_hoch, anker_tief, 34.00)
-
-    def bruchkerze(self, preis, kante):
+    def bruchkerze(self, preis: float, kante: float) -> str:
         if preis > kante:
             return "BRUCH NACH OBEN – KABALE FAIL"
         elif preis < kante:
