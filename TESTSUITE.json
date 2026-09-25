@@ -111,11 +111,20 @@
     },
     {
       "id": "TEST-013",
-      "beschreibung": "DAX Futures, 15M, EUREX, Sep 2026",
+      "beschreibung": "DAX Futures, 15M, EUREX, Sep 2026 (Test 1)",
       "anker_hoch": 25925,
       "anker_tief": 25619,
       "erwartete_113_6": 25967,
       "tatsaechliches_hoch": 25967,
+      "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-014",
+      "beschreibung": "DAX Futures, 15M, EUREX, Sep 2026 (Test 2)",
+      "anker_hoch": 25658,
+      "anker_tief": 25344,
+      "erwartete_113_6": 25301,
+      "tatsaechliches_tief": 25301,
       "status": "TREFFER (EXAKT)"
     }
   ]
