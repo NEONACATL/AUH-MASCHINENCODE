@@ -207,6 +207,15 @@
       "erwartete_113_6": 179.51,
       "tatsaechliches_hoch": 179.51,
       "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-024",
+      "beschreibung": "T-Bond Futures, 1W, CBOT, Sep 2026",
+      "anker_hoch": 141.06,
+      "anker_tief": 55.20,
+      "erwartete_113_6": 152.74,
+      "tatsaechliches_hoch": 152.26,
+      "status": "TREFFER (EXAKT)"
     }
   ]
 }
