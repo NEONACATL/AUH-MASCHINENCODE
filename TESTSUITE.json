@@ -162,6 +162,15 @@
       "erwartete_113_6": 51473,
       "tatsaechliches_tief": 51473,
       "status": "TREFFER (EXAKT)"
+    },
+    {
+      "id": "TEST-019",
+      "beschreibung": "Bitcoin CME Futures, 1T, CME, Sep 2026",
+      "anker_hoch": 106960,
+      "anker_tief": 63795,
+      "erwartete_113_6": 57925,
+      "tatsaechliches_tief": 57925,
+      "status": "TREFFER (EXAKT)"
     }
   ]
 }
