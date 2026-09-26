@@ -1,0 +1,16 @@
+{
+  "id": "EXT-005",
+  "referenz": "TEST-031",
+  "asset": "Offshore Chinese Yuan / U.S. Dollar",
+  "timeframe": "1W",
+  "spanne": 0.00747,
+  "kante_113_6": 0.13435,
+  "extraktion": {
+    "target_1_13_6": {"wert": 0.13435, "erreicht": true},
+    "target_2_34_0": {"wert": 0.14050, "erreicht": true},
+    "target_3_47_6": {"wert": 0.13928, "erreicht": true},
+    "target_4_52_4": {"wert": 0.13908, "erreicht": true},
+    "target_5_66_0": {"wert": 0.13791, "erreicht": true}
+  },
+  "status": "TREFFER (EXTRAKTION BIS 66%-KANTE)"
+}
