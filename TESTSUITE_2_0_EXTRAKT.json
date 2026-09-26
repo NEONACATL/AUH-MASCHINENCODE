@@ -1,5 +1,5 @@
 {
-  "testsuite": [
+  "testsuite_2_0": [
     {
       "id": "TEST-031",
       "asset": "Offshore Chinese Yuan / U.S. Dollar",
@@ -15,6 +15,177 @@
         "target_3_47_6": {"wert": 0.13928, "erreicht": true},
         "target_4_52_4": {"wert": 0.13893, "erreicht": true},
         "target_5_66_0": {"wert": 0.13791, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-032",
+      "asset": "Gold Spot / U.S. Dollar",
+      "timeframe": "1H",
+      "richtung": "abwaerts",
+      "anker_hoch": 4117.547,
+      "anker_tief": 4032.370,
+      "spanne": 85.177,
+      "kante_113_6": 4020.786,
+      "extraktion": {
+        "target_1_13_6": {"wert": 4020.786, "erreicht": true},
+        "target_2_34_0": {"wert": 4088.60, "erreicht": true},
+        "target_3_47_6": {"wert": 4076.84, "erreicht": true},
+        "target_4_52_4": {"wert": 4072.87, "erreicht": true},
+        "target_5_66_0": {"wert": 4062.84, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-033",
+      "asset": "Light Crude Oil Futures",
+      "timeframe": "15M",
+      "richtung": "aufwaerts",
+      "anker_hoch": 95.83,
+      "anker_tief": 88.91,
+      "spanne": 6.92,
+      "kante_113_6": 96.77,
+      "extraktion": {
+        "target_1_13_6": {"wert": 96.77, "erreicht": true},
+        "target_2_34_0": {"wert": 93.18, "erreicht": true},
+        "target_3_47_6": {"wert": 92.54, "erreicht": true},
+        "target_4_52_4": {"wert": 92.20, "erreicht": true},
+        "target_5_66_0": {"wert": 91.26, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-034",
+      "asset": "Euro FX Futures",
+      "timeframe": "15M",
+      "richtung": "abwaerts",
+      "anker_hoch": 1.14410,
+      "anker_tief": 1.13970,
+      "spanne": 0.00440,
+      "kante_113_6": 1.13910,
+      "extraktion": {
+        "target_1_13_6": {"wert": 1.13910, "erreicht": true},
+        "target_2_34_0": {"wert": 1.14260, "erreicht": true},
+        "target_3_47_6": {"wert": 1.14160, "erreicht": true},
+        "target_4_52_4": {"wert": 1.14180, "erreicht": true},
+        "target_5_66_0": {"wert": 1.14200, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-035",
+      "asset": "E-Mini Dow Jones Futures",
+      "timeframe": "30M",
+      "richtung": "abwaerts",
+      "anker_hoch": 52740,
+      "anker_tief": 51625,
+      "spanne": 1115,
+      "kante_113_6": 51473,
+      "extraktion": {
+        "target_1_13_6": {"wert": 51473, "erreicht": true},
+        "target_2_34_0": {"wert": 52365, "erreicht": true},
+        "target_3_47_6": {"wert": 52209, "erreicht": true},
+        "target_4_52_4": {"wert": 52156, "erreicht": true},
+        "target_5_66_0": {"wert": 52004, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-036",
+      "asset": "Bitcoin CME Futures",
+      "timeframe": "1T",
+      "richtung": "abwaerts",
+      "anker_hoch": 106960,
+      "anker_tief": 63795,
+      "spanne": 43165,
+      "kante_113_6": 57925,
+      "extraktion": {
+        "target_1_13_6": {"wert": 57925, "erreicht": true},
+        "target_2_34_0": {"wert": 92279, "erreicht": true},
+        "target_3_47_6": {"wert": 85141, "erreicht": true},
+        "target_4_52_4": {"wert": 84074, "erreicht": true},
+        "target_5_66_0": {"wert": 82211, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-037",
+      "asset": "E-Mini Russell 2000 Index Futures",
+      "timeframe": "1W",
+      "richtung": "aufwaerts",
+      "anker_hoch": 2924.3,
+      "anker_tief": 1782.0,
+      "spanne": 1142.3,
+      "kante_113_6": 3079.7,
+      "extraktion": {
+        "target_1_13_6": {"wert": 3079.7, "erreicht": true},
+        "target_2_34_0": {"wert": 2535.9, "erreicht": true},
+        "target_3_47_6": {"wert": 2325.7, "erreicht": true},
+        "target_4_52_4": {"wert": 2280.6, "erreicht": true},
+        "target_5_66_0": {"wert": 2119.1, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-038",
+      "asset": "Euro-Bund Futures",
+      "timeframe": "1W",
+      "richtung": "aufwaerts",
+      "anker_hoch": 167.85,
+      "anker_tief": 82.15,
+      "spanne": 85.70,
+      "kante_113_6": 179.51,
+      "extraktion": {
+        "target_1_13_6": {"wert": 179.51, "erreicht": true},
+        "target_2_34_0": {"wert": 138.71, "erreicht": true},
+        "target_3_47_6": {"wert": 127.06, "erreicht": true},
+        "target_4_52_4": {"wert": 123.45, "erreicht": true},
+        "target_5_66_0": {"wert": 111.29, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-039",
+      "asset": "Wheat Futures",
+      "timeframe": "1W",
+      "richtung": "abwaerts",
+      "anker_hoch": 747.4,
+      "anker_tief": 498.4,
+      "spanne": 249.0,
+      "kante_113_6": 464.6,
+      "extraktion": {
+        "target_1_13_6": {"wert": 464.6, "erreicht": true},
+        "target_2_34_0": {"wert": 662.8, "erreicht": true},
+        "target_3_47_6": {"wert": 629.3, "erreicht": true},
+        "target_4_52_4": {"wert": 617.2, "erreicht": true},
+        "target_5_66_0": {"wert": 583.1, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-040",
+      "asset": "Cotton No. 2 Futures",
+      "timeframe": "1W",
+      "richtung": "abwaerts",
+      "anker_hoch": 145.63,
+      "anker_tief": 72.11,
+      "spanne": 73.52,
+      "kante_113_6": 62.11,
+      "extraktion": {
+        "target_1_13_6": {"wert": 62.11, "erreicht": true},
+        "target_2_34_0": {"wert": 120.63, "erreicht": true},
+        "target_3_47_6": {"wert": 110.63, "erreicht": true},
+        "target_4_52_4": {"wert": 107.11, "erreicht": true},
+        "target_5_66_0": {"wert": 97.11, "erreicht": true}
       },
       "resonanz_erfolg": true,
       "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
