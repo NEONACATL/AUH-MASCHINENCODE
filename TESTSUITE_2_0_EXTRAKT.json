@@ -189,6 +189,405 @@
       },
       "resonanz_erfolg": true,
       "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-041",
+      "asset": "S&P 500",
+      "timeframe": "1H",
+      "richtung": "abwaerts",
+      "anker_hoch": 7783.7,
+      "anker_tief": 7664.0,
+      "spanne": 119.7,
+      "kante_113_6": 7647.72,
+      "extraktion": {
+        "target_1_13_6": {"wert": 7647.72, "erreicht": true},
+        "target_2_34_0": {"wert": 7743.00, "erreicht": true},
+        "target_3_47_6": {"wert": 7726.72, "erreicht": true},
+        "target_4_52_4": {"wert": 7720.98, "erreicht": true},
+        "target_5_66_0": {"wert": 7704.70, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-042",
+      "asset": "Gold Futures",
+      "timeframe": "30M",
+      "richtung": "abwaerts",
+      "anker_hoch": 4438.8,
+      "anker_tief": 4292.6,
+      "spanne": 146.2,
+      "kante_113_6": 4272.72,
+      "extraktion": {
+        "target_1_13_6": {"wert": 4272.72, "erreicht": true},
+        "target_2_34_0": {"wert": 4389.09, "erreicht": true},
+        "target_3_47_6": {"wert": 4369.21, "erreicht": true},
+        "target_4_52_4": {"wert": 4362.19, "erreicht": true},
+        "target_5_66_0": {"wert": 4342.31, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-043",
+      "asset": "MES1!",
+      "timeframe": "5M",
+      "richtung": "abwaerts",
+      "anker_hoch": 7723.25,
+      "anker_tief": 7707.25,
+      "spanne": 16.0,
+      "kante_113_6": 7705.07,
+      "extraktion": {
+        "target_1_13_6": {"wert": 7705.07, "erreicht": true},
+        "target_2_34_0": {"wert": 7717.81, "erreicht": true},
+        "target_3_47_6": {"wert": 7715.63, "erreicht": true},
+        "target_4_52_4": {"wert": 7714.87, "erreicht": true},
+        "target_5_66_0": {"wert": 7712.69, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-044",
+      "asset": "Bitcoin",
+      "timeframe": "1W",
+      "richtung": "abwaerts",
+      "anker_hoch": 126347.38,
+      "anker_tief": 65771.12,
+      "spanne": 60576.26,
+      "kante_113_6": 57532.75,
+      "extraktion": {
+        "target_1_13_6": {"wert": 57532.75, "erreicht": true},
+        "target_2_34_0": {"wert": 105751.45, "erreicht": true},
+        "target_3_47_6": {"wert": 97513.08, "erreicht": true},
+        "target_4_52_4": {"wert": 94605.42, "erreicht": true},
+        "target_5_66_0": {"wert": 86367.05, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-045",
+      "asset": "NVIDIA",
+      "timeframe": "1W",
+      "richtung": "abwaerts",
+      "anker_hoch": 236.37,
+      "anker_tief": 70.77,
+      "spanne": 165.6,
+      "kante_113_6": 48.25,
+      "extraktion": {
+        "target_1_13_6": {"wert": 48.25, "erreicht": true},
+        "target_2_34_0": {"wert": 180.07, "erreicht": true},
+        "target_3_47_6": {"wert": 157.54, "erreicht": true},
+        "target_4_52_4": {"wert": 149.60, "erreicht": true},
+        "target_5_66_0": {"wert": 127.07, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-046",
+      "asset": "US 10Y Treasury",
+      "timeframe": "1W",
+      "richtung": "abwaerts",
+      "anker_hoch": 5.268,
+      "anker_tief": 0.533,
+      "spanne": 4.735,
+      "kante_113_6": -0.11,
+      "extraktion": {
+        "target_1_13_6": {"wert": -0.11, "erreicht": true},
+        "target_2_34_0": {"wert": 3.66, "erreicht": true},
+        "target_3_47_6": {"wert": 3.01, "erreicht": true},
+        "target_4_52_4": {"wert": 2.79, "erreicht": true},
+        "target_5_66_0": {"wert": 2.14, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-047",
+      "asset": "US Inflation Rate YoY",
+      "timeframe": "1M",
+      "richtung": "aufwaerts",
+      "anker_hoch": 20.7,
+      "anker_tief": -1.0,
+      "spanne": 21.7,
+      "kante_113_6": 23.65,
+      "extraktion": {
+        "target_1_13_6": {"wert": 23.65, "erreicht": true},
+        "target_2_34_0": {"wert": 6.38, "erreicht": true},
+        "target_3_47_6": {"wert": 9.33, "erreicht": true},
+        "target_4_52_4": {"wert": 10.37, "erreicht": true},
+        "target_5_66_0": {"wert": 13.32, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-048",
+      "asset": "US Arbeitslosenquote",
+      "timeframe": "1W",
+      "richtung": "aufwaerts",
+      "anker_hoch": 10.8,
+      "anker_tief": 2.5,
+      "spanne": 8.3,
+      "kante_113_6": 11.93,
+      "extraktion": {
+        "target_1_13_6": {"wert": 11.93, "erreicht": true},
+        "target_2_34_0": {"wert": 5.32, "erreicht": true},
+        "target_3_47_6": {"wert": 6.45, "erreicht": true},
+        "target_4_52_4": {"wert": 6.85, "erreicht": true},
+        "target_5_66_0": {"wert": 7.98, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (MAXIMAL-EXTENSION)"
+    },
+    {
+      "id": "TEST-049",
+      "asset": "Silver Futures",
+      "timeframe": "4H",
+      "richtung": "abwaerts",
+      "anker_hoch": 60.845,
+      "anker_tief": 57.215,
+      "spanne": 3.63,
+      "kante_113_6": 56.72,
+      "extraktion": {
+        "target_1_13_6": {"wert": 56.72, "erreicht": true},
+        "target_2_34_0": {"wert": 59.61, "erreicht": true},
+        "target_3_47_6": {"wert": 59.12, "erreicht": true},
+        "target_4_52_4": {"wert": 58.94, "erreicht": true},
+        "target_5_66_0": {"wert": 58.45, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-050",
+      "asset": "NASDAQ 100 E-Mini Futures",
+      "timeframe": "15M",
+      "richtung": "aufwaerts",
+      "anker_hoch": 29100,
+      "anker_tief": 28430,
+      "spanne": 670,
+      "kante_113_6": 29191.12,
+      "extraktion": {
+        "target_1_13_6": {"wert": 29191.12, "erreicht": true},
+        "target_2_34_0": {"wert": 28657.80, "erreicht": true},
+        "target_3_47_6": {"wert": 28748.92, "erreicht": true},
+        "target_4_52_4": {"wert": 28781.08, "erreicht": true},
+        "target_5_66_0": {"wert": 28872.20, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-051",
+      "asset": "Apple Inc.",
+      "timeframe": "1W",
+      "richtung": "aufwaerts",
+      "anker_hoch": 312.06,
+      "anker_tief": 79.44,
+      "spanne": 232.62,
+      "kante_113_6": 343.70,
+      "extraktion": {
+        "target_1_13_6": {"wert": 343.70, "erreicht": false},
+        "target_2_34_0": {"wert": 158.53, "erreicht": true},
+        "target_3_47_6": {"wert": 190.17, "erreicht": true},
+        "target_4_52_4": {"wert": 201.33, "erreicht": true},
+        "target_5_66_0": {"wert": 232.97, "erreicht": true}
+      },
+      "resonanz_erfolg": false,
+      "status": "AUSSTEHEND (BEOBACHTUNG)"
+    },
+    {
+      "id": "TEST-052",
+      "asset": "DAX Futures",
+      "timeframe": "15M",
+      "richtung": "aufwaerts",
+      "anker_hoch": 25925,
+      "anker_tief": 25619,
+      "spanne": 306,
+      "kante_113_6": 25966.62,
+      "extraktion": {
+        "target_1_13_6": {"wert": 25966.62, "erreicht": true},
+        "target_2_34_0": {"wert": 25723.04, "erreicht": true},
+        "target_3_47_6": {"wert": 25764.66, "erreicht": true},
+        "target_4_52_4": {"wert": 25779.34, "erreicht": true},
+        "target_5_66_0": {"wert": 25820.96, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-053",
+      "asset": "DAX Futures",
+      "timeframe": "15M",
+      "richtung": "abwaerts",
+      "anker_hoch": 25658,
+      "anker_tief": 25344,
+      "spanne": 314,
+      "kante_113_6": 25301.30,
+      "extraktion": {
+        "target_1_13_6": {"wert": 25301.30, "erreicht": true},
+        "target_2_34_0": {"wert": 25551.24, "erreicht": true},
+        "target_3_47_6": {"wert": 25508.54, "erreicht": true},
+        "target_4_52_4": {"wert": 25493.46, "erreicht": true},
+        "target_5_66_0": {"wert": 25450.76, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-054",
+      "asset": "Light Crude Oil Futures",
+      "timeframe": "15M",
+      "richtung": "abwaerts",
+      "anker_hoch": 96.48,
+      "anker_tief": 92.88,
+      "spanne": 3.60,
+      "kante_113_6": 92.39,
+      "extraktion": {
+        "target_1_13_6": {"wert": 92.39, "erreicht": true},
+        "target_2_34_0": {"wert": 95.26, "erreicht": true},
+        "target_3_47_6": {"wert": 94.77, "erreicht": true},
+        "target_4_52_4": {"wert": 94.59, "erreicht": true},
+        "target_5_66_0": {"wert": 94.10, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-055",
+      "asset": "Bitcoin CME Futures",
+      "timeframe": "1T",
+      "richtung": "aufwaerts",
+      "anker_hoch": 84545,
+      "anker_tief": 58760,
+      "spanne": 25785,
+      "kante_113_6": 88051.76,
+      "extraktion": {
+        "target_1_13_6": {"wert": 88051.76, "erreicht": true},
+        "target_2_34_0": {"wert": 67526.90, "erreicht": true},
+        "target_3_47_6": {"wert": 71033.66, "erreicht": true},
+        "target_4_52_4": {"wert": 72271.34, "erreicht": true},
+        "target_5_66_0": {"wert": 75778.10, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-056",
+      "asset": "Bitcoin CME Futures",
+      "timeframe": "1T",
+      "richtung": "abwaerts",
+      "anker_hoch": 84545,
+      "anker_tief": 58760,
+      "spanne": 25785,
+      "kante_113_6": 55253.24,
+      "extraktion": {
+        "target_1_13_6": {"wert": 55253.24, "erreicht": true},
+        "target_2_34_0": {"wert": 75778.10, "erreicht": true},
+        "target_3_47_6": {"wert": 72271.34, "erreicht": true},
+        "target_4_52_4": {"wert": 71033.66, "erreicht": true},
+        "target_5_66_0": {"wert": 67526.90, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-057",
+      "asset": "T-Bond Futures",
+      "timeframe": "1W",
+      "richtung": "aufwaerts",
+      "anker_hoch": 141.06,
+      "anker_tief": 55.20,
+      "spanne": 85.86,
+      "kante_113_6": 152.74,
+      "extraktion": {
+        "target_1_13_6": {"wert": 152.74, "erreicht": true},
+        "target_2_34_0": {"wert": 84.39, "erreicht": true},
+        "target_3_47_6": {"wert": 96.07, "erreicht": true},
+        "target_4_52_4": {"wert": 100.19, "erreicht": true},
+        "target_5_66_0": {"wert": 111.87, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-058",
+      "asset": "T-Bond Futures",
+      "timeframe": "1W",
+      "richtung": "aufwaerts",
+      "anker_hoch": 155.00,
+      "anker_tief": 80.51,
+      "spanne": 74.49,
+      "kante_113_6": 165.13,
+      "extraktion": {
+        "target_1_13_6": {"wert": 165.13, "erreicht": true},
+        "target_2_34_0": {"wert": 105.84, "erreicht": true},
+        "target_3_47_6": {"wert": 115.97, "erreicht": true},
+        "target_4_52_4": {"wert": 119.54, "erreicht": true},
+        "target_5_66_0": {"wert": 129.67, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-059",
+      "asset": "Japanese Yen Futures",
+      "timeframe": "1W",
+      "richtung": "aufwaerts",
+      "anker_hoch": 0.0124520,
+      "anker_tief": 0.0074400,
+      "spanne": 0.0050120,
+      "kante_113_6": 0.0131336,
+      "extraktion": {
+        "target_1_13_6": {"wert": 0.0131336, "erreicht": true},
+        "target_2_34_0": {"wert": 0.0091441, "erreicht": true},
+        "target_3_47_6": {"wert": 0.0098257, "erreicht": true},
+        "target_4_52_4": {"wert": 0.0100663, "erreicht": true},
+        "target_5_66_0": {"wert": 0.0107479, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-060",
+      "asset": "EURO STOXX 50 Index Futures",
+      "timeframe": "1W",
+      "richtung": "aufwaerts",
+      "anker_hoch": 5735,
+      "anker_tief": 2290,
+      "spanne": 3445,
+      "kante_113_6": 6203.52,
+      "extraktion": {
+        "target_1_13_6": {"wert": 6203.52, "erreicht": true},
+        "target_2_34_0": {"wert": 3461.30, "erreicht": true},
+        "target_3_47_6": {"wert": 3929.82, "erreicht": true},
+        "target_4_52_4": {"wert": 4095.18, "erreicht": true},
+        "target_5_66_0": {"wert": 4563.70, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
+    },
+    {
+      "id": "TEST-061",
+      "asset": "10 Jahre T-Note Futures",
+      "timeframe": "1W",
+      "richtung": "aufwaerts",
+      "anker_hoch": 129110,
+      "anker_tief": 104220,
+      "spanne": 24890,
+      "kante_113_6": 132495.04,
+      "extraktion": {
+        "target_1_13_6": {"wert": 132495.04, "erreicht": true},
+        "target_2_34_0": {"wert": 112682.60, "erreicht": true},
+        "target_3_47_6": {"wert": 116067.64, "erreicht": true},
+        "target_4_52_4": {"wert": 117262.36, "erreicht": true},
+        "target_5_66_0": {"wert": 120647.40, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
     }
   ]
 }
