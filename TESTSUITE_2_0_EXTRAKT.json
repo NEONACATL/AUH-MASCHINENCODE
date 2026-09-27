@@ -229,7 +229,45 @@
       "status": "TREFFER (RESONANZ VON 113,6 ZU 100)"
     },
     {
-      "id": "TEST-043-HISTORIC",
+      "id": "TEST-043",
+      "asset": "US Dollar Index (DXY) - Aufwärts-Anker",
+      "timeframe": "1M",
+      "richtung": "aufwaerts",
+      "anker_hoch": 161.040,
+      "anker_tief": 81.746,
+      "spanne": 79.294,
+      "kante_113_6": 171.832,
+      "extraktion": {
+        "target_1_13_6": {"wert": 171.832, "erreicht": true},
+        "target_2_34_0": {"wert": 134.400, "erreicht": true},
+        "target_3_47_6": {"wert": 124.032, "erreicht": true},
+        "target_4_52_4": {"wert": 127.408, "erreicht": true},
+        "target_5_66_0": {"wert": 137.000, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (LIVE DOPPEL-RESONANZ KONVERGENZ)"
+    },
+    {
+      "id": "TEST-044",
+      "asset": "US Dollar Index (DXY) - Abwärts-Anker",
+      "timeframe": "1M",
+      "richtung": "abwaerts",
+      "anker_hoch": 121.290,
+      "anker_tief": 81.910,
+      "spanne": 39.380,
+      "kante_113_6": 76.548,
+      "extraktion": {
+        "target_1_13_6": {"wert": 76.548, "erreicht": true},
+        "target_2_34_0": {"wert": 108.140, "erreicht": true},
+        "target_3_47_6": {"wert": 105.340, "erreicht": true},
+        "target_4_52_4": {"wert": 99.284, "erreicht": true},
+        "target_5_66_0": {"wert": 91.548, "erreicht": true}
+      },
+      "resonanz_erfolg": true,
+      "status": "TREFFER (LIVE DOPPEL-RESONANZ KONVERGENZ)"
+    },
+    {
+      "id": "TEST-045-HISTORIC",
       "asset": "United States Inflation Rate YoY (1915-1925)",
       "timeframe": "1M",
       "richtung": "abwaerts",
@@ -245,7 +283,3 @@
         "target_5_66_0": {"wert": 13.32, "erreicht": true}
       },
       "resonanz_erfolg": true,
-      "status": "TREFFER (HISTORISCHE TROMMLER-RESONANZ AUS EINEM GUSS)"
-    }
-  ]
-}
