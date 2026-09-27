@@ -267,19 +267,20 @@
       "status": "TREFFER (LIVE DOPPEL-RESONANZ KONVERGENZ)"
     },
     {
-      "id": "TEST-045-HISTORIC",
-      "asset": "United States Inflation Rate YoY (1915-1925)",
-      "timeframe": "1M",
-      "richtung": "abwaerts",
-      "anker_hoch": 23.65,
-      "anker_tief": -3.95,
-      "spanne": 27.60,
-      "kante_113_6": 13.32,
+      "id": "TEST-045",
+      "asset": "DAX Index",
+      "timeframe": "1T",
+      "richtung": "aufwaerts",
+      "anker_hoch": 23419.48,
+      "anker_tief": 18751.75,
+      "spanne": 4667.73,
+      "kante_113_6": 24054.29,
       "extraktion": {
-        "target_1_13_6": {"wert": 13.32, "erreicht": true},
-        "target_2_34_0": {"wert": 6.38, "erreicht": true},
-        "target_3_47_6": {"wert": 9.33, "erreicht": true},
-        "target_4_52_4": {"wert": 10.37, "erreicht": true},
-        "target_5_66_0": {"wert": 13.32, "erreicht": true}
+        "target_1_13_6": {"wert": 24054.29, "erreicht": true},
+        "target_2_34_0": {"wert": 20338.78, "erreicht": true},
+        "target_3_47_6": {"wert": 20973.59, "erreicht": true},
+        "target_4_52_4": {"wert": 21197.64, "erreicht": true},
+        "target_5_66_0": {"wert": 21832.45, "erreicht": true}
       },
       "resonanz_erfolg": true,
+      "status": "TREFFER (VALIDIERTE TROMMLER-RESONANZ)"
